@@ -1,0 +1,70 @@
+
+body{
+    scroll-behavior: smooth;
+}
+.hero-div{
+    height: 100vh;
+    background-image: url("https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1920,fit=crop/minattnvs/Rectangle-YZ9P6kWjMnUBNL6W.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.navbar{
+    background-color: white;
+}
+#hero-card{
+    background: transparent;
+    border: none;
+}
+#first-heading{
+    font-size: 3rem;
+}
+#first-card .card{
+    border: none;
+}
+.hero2-div{
+    height: 80vh;
+    margin-bottom: 150px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1920,fit=crop/minattnvs/Untitled-AzGRJwMK6BHxZypJ.png");
+}
+#second-heading{
+    font-size: 2.5rem;
+    
+}
+.flex-items{
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+    border: none;
+    
+}
+#section-card  .card{
+    border: none;
+    border-style: none;
+}
+.section3{
+    background-image: url("https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1920,fit=crop/minattnvs/Frame-AGBpDkZaG5cRpbaw.png");
+    height:60vh ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.section3 input{
+   background-color: rgba(249, 249, 249, 0.4);
+   border: 0;
+   box-shadow: none;
+}
+
+@media screen and (min-width:768px) {
+    #section3 input,.input-group{
+    width: 25%;
+    margin-inline: auto;}
+    #second-heading{
+        font-size: 4rem;}
+        #first-heading{
+            font-size: 6rem;}
+
+}

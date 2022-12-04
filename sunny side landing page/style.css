@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    
+}
+.section1{
+    border: 2px solid lightskyblue;
+   background-image: url("../images/image-header.jpg");
+   color: white;
+   width: 100%;
+   height: 50vh;
+   overflow: hidden;
+   
+}
+.navbar{
+    display: flex;
+    justify-content:space-between;
+    margin-right:  150px;
+    margin-top: 40px;
+}
+.navbar ul{
+    display: flex;
+    gap: 50px;
+    font-size: 30px;
+}
+.text{
+    font-size: 30px;
+    margin-left: 30px;
+    font-weight: 700;
+}
+.navbar li{
+    list-style: none;
+    cursor: pointer;
+}
+.navbar li:hover{
+    background-color: lightgrey;
+    
+}
+.section1 h1{
+    margin-top: 50px;
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+}
+/* .section2 {
+    display: flex;
+    justify-content: space-between;
+     width: 100%;
+        height: auto;} */
+    
+
+.brand{
+    background-color: white;
+    margin-top: 100px;
+    margin-left: 100px;
+    width: 50%;
+}
+.brand h2{
+    margin-bottom: 30px;
+}
+.brand p{
+    opacity: 0.8;
+     margin-bottom: 20px; 
+    text-align:start;
+}
+.brand a{
+    text-decoration: underline;
+    color: black;
+    font-weight: 800;
+    font-size: 20px;
+    cursor: pointer;
+}
+.brand a:hover{
+    color: yellow;
+}
+.section2{
+    display: grid;
+    grid-template-columns:600px 6fr;
+    justify-content: space-evenly;
+    height: 600px;
+    width: 100%;
+}
+ .egg{
+    height:500px;
+    width: 100%;
+    margin-left: 260px;
+    overflow-y: hidden;
+ }  
+ .section3{
+    display: grid;
+    grid-template-columns:750px 6fr;
+    justify-content: space-evenly;
+    height: 700px;
+    width: 100%;
+}
+.cup-left{
+    margin: 150px;
+}
+.cup-left h2{
+font-weight: 700;
+margin-bottom: 30px;
+}
+.cup-left p{
+margin-bottom: 30px;
+}
+.cup-left a{
+text-decoration: none;
+text-decoration: underline;
+cursor: pointer;
+font-size: 20px;
+color: black;
+}
+.cup-left a:hover{
+    color: red;
+}
+
+.apple h2 p{
+    position: absolute;
+    top: 50%;
+    bottom: 0;
+}
+.section4{
+    width: 100%;
+    display: grid;
+    grid-template-columns:750px 6fr;
+    width: 100%;
+}
+.apple{
+    position: relative;
+    
+    
+}
+.text-container{
+    position: absolute;
+    bottom: 20%;
+    margin-left: 80px;
+}
+.apple-left{
+    position: relative;
+}
+.image2{
+    height:600px;
+    width: 90%;
+}
+.text-container2{
+    position: absolute;
+    bottom: 20%;
+    margin-left: 40px;
+    
+}
